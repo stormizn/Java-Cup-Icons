@@ -6,7 +6,7 @@ All notable changes to this project are documented in this file.
 
 ### Changed
 
-- Renamed the vendor, plugin ID, and Java packages from Stormyy to stormizn.
+- Renamed the vendor, plugin ID, and Java packages to stormizn.
 - No behavior changes.
 
 ## [1.0.1] - 2026-11-22
