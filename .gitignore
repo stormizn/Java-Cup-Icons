@@ -1,0 +1,10 @@
+.gradle/
+build/
+.intellijPlatform/
+dist/
+.idea/
+*.iml
+test-project/.idea/
+test-project/test-project.iml
+marketplace-demo/.idea/
+marketplace-demo/*.iml

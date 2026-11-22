@@ -1,0 +1,51 @@
+<idea-plugin url="https://github.com/stormizn/Java-Cup-Icons">
+    <id>com.stormizn.javacupicons</id>
+    <name>Java Cup Icons</name>
+    <vendor url="https://github.com/stormizn">stormizn</vendor>
+    <version>1.0.2</version>
+
+    <description><![CDATA[
+        <p><b>Java Cup Icons</b> gives top-level Java classes and records a coffee-cup icon in the
+        Project View and editor tabs.</p>
+
+        <p>Interfaces, enums, and annotation types keep the icons supplied by your active theme, so
+        the distinction between Java types stays visible. The plugin works alongside your active
+        icon theme and does not modify theme files.</p>
+
+        <ul>
+            <li>Top-level classes and records: cup icon.</li>
+            <li>Interfaces, enums, annotations, and nested declarations: unchanged.</li>
+            <li>No settings, theme edits, telemetry, or background services.</li>
+        </ul>
+
+        <p>Requires IntelliJ IDEA 2026.3 (build 263). Atom Material Icons is optional.</p>
+
+        <p>Source and issue tracker:
+            <a href="https://github.com/stormizn/Java-Cup-Icons">github.com/stormizn/Java-Cup-Icons</a>
+        </p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        <ul>
+            <li><b>1.0.2</b> &mdash; Vendor and package renamed to stormizn. No behavior changes.</li>
+            <li><b>1.0.1</b> &mdash; Exact supplied artwork at 16 px and 32 px; added the final
+                plugin icon and Marketplace assets.</li>
+            <li><b>1.0.0</b> &mdash; Initial release. Cup icons for top-level Java classes and
+                records, with type-aware handling for interfaces, enums, and annotations.</li>
+        </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="263" until-build="263.*"/>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends optional="true">com.mallowigi</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <iconProvider id="javaCupIconProvider"
+                      implementation="com.stormizn.cupicons.JavaCupIconProvider"
+                      order="first"/>
+        <fileIconProvider implementation="com.stormizn.cupicons.JavaCupFileIconProvider"
+                          order="first"/>
+    </extensions>
+</idea-plugin>
