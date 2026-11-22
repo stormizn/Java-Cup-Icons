@@ -2,7 +2,7 @@
     <id>com.stormizn.javacupicons</id>
     <name>Java Cup Icons</name>
     <vendor url="https://github.com/stormizn">stormizn</vendor>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <description><![CDATA[
         <p><b>Java Cup Icons</b> gives top-level Java classes and records a coffee-cup icon in the
@@ -27,6 +27,8 @@
 
     <change-notes><![CDATA[
         <ul>
+            <li><b>1.0.3</b> &mdash; Declared the optional Atom Material Icons dependency with a
+                config file, resolving the Plugin Verifier configuration warning.</li>
             <li><b>1.0.2</b> &mdash; Vendor and package renamed to stormizn. No behavior changes.</li>
             <li><b>1.0.1</b> &mdash; Exact supplied artwork at 16 px and 32 px; added the final
                 plugin icon and Marketplace assets.</li>
@@ -39,7 +41,7 @@
 
     <depends>com.intellij.modules.platform</depends>
     <depends>com.intellij.modules.java</depends>
-    <depends optional="true">com.mallowigi</depends>
+    <depends optional="true" config-file="atom-support.xml">com.mallowigi</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <iconProvider id="javaCupIconProvider"

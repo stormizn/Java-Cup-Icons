@@ -42,7 +42,7 @@ Create a public repository, then from this project:
 ```powershell
 git init
 git add .
-git commit -m "Java Cup Icons 1.0.2"
+git commit -m "Java Cup Icons 1.0.3"
 git branch -M main
 git remote add origin https://github.com/stormizn/Java-Cup-Icons.git
 git push -u origin main
@@ -78,7 +78,7 @@ added in the Marketplace admin panel after the plugin is created.
 Output:
 
 ```text
-build/distributions/java-cup-icons-1.0.2.zip
+build/distributions/java-cup-icons-1.0.3.zip
 ```
 
 Before uploading:
@@ -96,7 +96,7 @@ Do not upload a ZIP built with a different plugin version or an old `build/` dir
 1. Open the [Marketplace author area](https://plugins.jetbrains.com/author/me).
 2. Open the account menu and choose **Upload plugin**.
 3. Select the `stormizn` vendor profile.
-4. Upload `java-cup-icons-1.0.2.zip`.
+4. Upload `java-cup-icons-1.0.3.zip`.
 5. Fill in the form:
    - **License:** MIT
    - **Source code:** your public GitHub repository URL

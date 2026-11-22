@@ -1,0 +1,7 @@
+<idea-plugin>
+    <!--
+        Loaded only when Atom Material Icons is installed.
+        The icon providers stay in the main plugin descriptor so Java Cup Icons also works
+        without Atom Material Icons.
+    -->
+</idea-plugin>

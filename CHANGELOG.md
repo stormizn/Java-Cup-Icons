@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [1.0.3] - 2026-11-22
+
+### Fixed
+
+- Declared the optional Atom Material Icons dependency with a config file. This resolves the
+  Plugin Verifier "plugin configuration defect" warning while keeping the plugin functional when
+  Atom Material Icons is not installed.
+
 ## [1.0.2] - 2026-11-22
 
 ### Changed

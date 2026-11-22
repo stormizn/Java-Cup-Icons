@@ -37,7 +37,7 @@ After the plugin is published, search for **Java Cup Icons** in **Settings | Plu
 
 ### From disk
 
-1. Build or download `java-cup-icons-1.0.2.zip`.
+1. Build or download `java-cup-icons-1.0.3.zip`.
 2. Open **Settings | Plugins**.
 3. Use the gear menu and choose **Install Plugin from Disk...**.
 4. Select the ZIP and restart the IDE.
@@ -63,7 +63,7 @@ Requirements: JDK 25 and the included Gradle wrapper.
 .\gradlew.bat buildPlugin
 ```
 
-The installable ZIP is written to `build/distributions/java-cup-icons-1.0.2.zip`.
+The installable ZIP is written to `build/distributions/java-cup-icons-1.0.3.zip`.
 
 The build uses the locally installed IntelliJ IDEA at:
 
