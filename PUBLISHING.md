@@ -21,6 +21,20 @@ Official references:
 4. Decide on the public source repository. The included `LICENSE` is MIT, and the Marketplace
    upload form requires a public source-code URL when an open-source license is selected.
 
+### Vendor status: Non-trader or Trader
+
+The Marketplace asks whether you publish as a **Non-trader** or a **Trader**. This declaration
+affects whether EU consumer-protection rules apply.
+
+- Choose **Non-trader** if you are publishing as an individual, outside your trade, business,
+  craft, or profession, and the plugin is free. For a personal, free plugin, this is normally the
+  correct choice.
+- Choose **Trader** if you publish as a company or as part of your professional/commercial
+  activity, or if you intend to sell the plugin or otherwise operate commercially.
+
+Choose the status that reflects your real situation. If your circumstances change, update the
+vendor status before continuing to publish.
+
 ## 2. Put the source on GitHub
 
 Create a public repository, then from this project:
